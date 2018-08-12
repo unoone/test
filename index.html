@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Demo: Cantina Negrar preloader deconstruction</title>
+    <meta name="description" content="Learn how to recreate the preloader from Cantina Negrar. Tutorial for a passionate front-end web developers by Petr Tichy.">
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/button.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" />
+
+    <!-- The Stylesheets -->
+    <link href="assets/css/progressBar.css" rel="stylesheet" />
+
+    <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+    <style type="text/css">
+        .entry-header {
+            text-align: left;
+            margin: 0 auto 50px auto;
+            width: 80%;
+            max-width: 978px;
+            position: relative;
+            z-index: 10001;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Demo content -->
+    <div id="demo-content" class="container">
+
+        <header class="entry-header">
+            <div class="progressBar">
+                <a id="submitButton" href="#" class="progress-button">
+                    <div id="text">0/100</div>
+                </a>
+
+            </div>
+
+            <!-- <button id="startButton">
+                startButton
+            </button> -->
+
+            <ul>
+
+                <li>
+                    <a href="#" id="startButton" class="round red">Захилить
+                        <span class="round">После данной процедуры, будет почти как новое</span>
+                    </a>
+                </li>
+
+            </ul>
+        </header>
+
+        <div class="noth">
+            <div id="loader-wrapper">
+                <div id="loader"></div>
+
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+
+            </div>
+        </div>
+
+
+
+        <div id="content">
+            <h1>Вылечено</h1>
+        </div>
+
+
+    </div>
+    <!-- /Demo content -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/progressBar.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="assets/js/preloader.js"></script>
+
+</body>
+
+</html>
