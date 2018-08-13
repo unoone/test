@@ -141,7 +141,7 @@ a.red:hover {
 .round span:hover {
   opacity: 0.85;
   font-size: 16px;
-  padding-top: 50%;
+  padding-top: 60%;
   -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   -o-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
