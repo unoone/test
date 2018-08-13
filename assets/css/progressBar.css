@@ -81,7 +81,7 @@ div.control-area a:hover {
 
   box-shadow: 0 1px 1px #ccc;
   border-radius: 2px;
-  width: 40%;
+  width: 500px;
   /* height: 10px; */
   background-color: red;
   background-image: -webkit-linear-gradient(top, red, red);

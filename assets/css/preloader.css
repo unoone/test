@@ -28,7 +28,7 @@ Enjoy responsibly!
    Author's custom styles
    ========================================================================== */
 html {
-  background-color: yellow;
+  background-color: #a8d5c1;
 }
 p {
   line-height: 1.33em;
@@ -124,7 +124,7 @@ h1 {
   top: 0;
   width: 51%;
   height: 100%;
-  background: yellow;
+  background: #a8d5c1;
   z-index: 1000;
   -webkit-transform: translateX(0); /* Chrome, Opera 15+, Safari 3.1+ */
   -ms-transform: translateX(0); /* IE 9 */

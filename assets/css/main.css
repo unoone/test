@@ -4,11 +4,14 @@
   width: 90%;
   margin: 0 auto;
 }
-
 .progressBar {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.progressBarAndImg {
+  margin-top: 10px;
   display: flex;
   justify-content: flex-end;
-  margin-top: 20px;
 }
 
 #text {
@@ -27,6 +30,11 @@
   margin-top: 35%;
 }
 
+.img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 @media only screen and (max-width: 950px) {
   #helpPhrase {
     margin-top: 40%;
