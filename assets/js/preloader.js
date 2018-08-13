@@ -20,13 +20,14 @@ $(document).ready(function() {
     console.log("start");
     setTimeout(function() {
       $("div").addClass("loaded");
-      $("h1").css("color", "#ff0000");
+      $("#content").css("display", "flex");
+      $("#wrapperForLoader").detach();
     }, 3000);
   };
   $("#startButton").click(e => {
     e.preventDefault();
     $("div").addClass("start");
-    $("#startButton").css("display", "none");
+    $("#wrapperForButton").css("display", "none");
     startPreloader();
   });
 });
