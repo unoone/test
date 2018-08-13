@@ -22,7 +22,6 @@ $(document).ready(function() {
     // return Math.random() * (max - min) + min;
   }
   phrases = [
-    "У сороконожки боли..",
     "У паука боли..",
     "Хилииим",
     "Путен спаси помоги",
