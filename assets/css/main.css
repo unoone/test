@@ -1,7 +1,8 @@
 .container {
   display: flex !important;
   flex-direction: column !important;
-  justify-content: center !important;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .progressBar {
