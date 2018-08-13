@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-ul {
+#wrapperForButton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@ ul {
   margin-top: 15%;
 }
 
-li {
+.liForButton {
   list-style: none;
   position: relative;
   display: inline-block;
@@ -153,10 +153,10 @@ a.red:hover {
 }
 
 @media only screen and (max-width: 800px) {
-  ul {
+  #wrapperForButton {
     margin-top: 30%;
   }
-  li {
+  .liForButton {
     width: 150px;
     height: 150px;
   }
@@ -166,10 +166,10 @@ a.red:hover {
 }
 
 @media only screen and (max-width: 500px) {
-  ul {
+  #wrapperForButton {
     margin-top: 55%;
   }
-  li {
+  .liForButton {
     width: 150px;
     height: 150px;
   }

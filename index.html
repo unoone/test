@@ -23,7 +23,8 @@
 
     <!-- The Stylesheets -->
     <link href="assets/css/progressBar.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="assets/css/text.css">
+    <link rel="stylesheet" href="assets/css/text.scss">
     <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     <style type="text/css">
         .entry-header {
@@ -40,7 +41,7 @@
 
 
     <!-- Demo content -->
-    <div id="demo-content" class="container">
+    <div id="demo-content" class="wrapper">
 
         <header class="entry-header">
             <div class="progressBarAndImg">
@@ -62,7 +63,7 @@
 
             <ul id="wrapperForButton">
 
-                <li>
+                <li class="liForButton">
                     <a href="#" id="startButton" class="round red">Захилить
                         <span class="round">После данной процедуры, будет почти как новое</span>
                     </a>
@@ -86,8 +87,19 @@
             <h1 id="helpPhrase" class="before"></h1>
         </div>
 
-        <div id="content">
-            <h1>Вылечено</h1>
+        <div id="content" class="content">
+            <div class="content__container">
+                <p class="content__container__text">
+                    Колено
+                </p>
+
+                <ul class="content__container__list">
+                    <li class="content__container__list__item"> подлечено</li>
+                    <li class="content__container__list__item"> блестит</li>
+                    <li class="content__container__list__item"> живЁт</li>
+                    <li class="content__container__list__item"> радуется</li>
+                </ul>
+            </div>
         </div>
 
 
