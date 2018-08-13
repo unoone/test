@@ -66,7 +66,7 @@ $(document).ready(function() {
       var options = $.extend(
         {
           type: "background-horizontal",
-          loading: "У сороконожки боли..",
+          loading: "",
           finished: "100/100"
         },
         button.data()

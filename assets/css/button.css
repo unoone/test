@@ -182,6 +182,19 @@ a.yellow:hover {
 
 @media only screen and (max-width: 800px) {
   ul {
+    margin-top: 30%;
+  }
+  li {
+    width: 150px;
+    height: 150px;
+  }
+  .round {
+    padding-top: 38%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  ul {
     margin-top: 55%;
   }
   li {

@@ -19,3 +19,63 @@
 .noth {
   display: none;
 }
+
+#helpPhrase {
+  display: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 35%;
+}
+
+@media only screen and (max-width: 950px) {
+  #helpPhrase {
+    margin-top: 40%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #helpPhrase {
+    margin-top: 50%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #helpPhrase {
+    margin-top: 60%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #helpPhrase {
+    margin-top: 70%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #helpPhrase {
+    margin-top: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #helpPhrase {
+    margin-top: 90%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #helpPhrase {
+    margin-top: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  #helpPhrase {
+    margin-top: 380px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #helpPhrase {
+    margin-top: 400px;
+  }
+}
