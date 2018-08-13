@@ -15,7 +15,14 @@ Enjoy responsibly!
 //Изначально у боди класс = nothing. При нажатии на конпку клаасс = start, и если старт то начнет выполняться функция и через 3000 секунд класс изменится на "loaded"
 $(document).ready(function() {
   //const body = document.getElementsByTagName("body");
-
+  phrases = [
+    "У сороконожки боли..",
+    "У паука боли..",
+    "Хилииим",
+    "Путен спаси помоги",
+    "Отправляем гуманитарную помощь",
+    "Вводим войска"
+  ];
   const startPreloader = () => {
     console.log("start");
     setTimeout(function() {
@@ -26,7 +33,9 @@ $(document).ready(function() {
   };
   $("#startButton").click(e => {
     e.preventDefault();
-    $("div").addClass("start");
+    $("div")
+      .removeClass("noth")
+      .addClass("start");
     $("#wrapperForButton").css("display", "none");
     startPreloader();
   });
