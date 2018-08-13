@@ -166,3 +166,33 @@ div.control-area a:hover {
 /*----------------------------
 	The Demo Footer
 -----------------------------*/
+
+@media only screen and (max-width: 620px) {
+  .progress-button {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .progress-button {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .progress-button {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .progress-button {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .progress-button {
+    width: 200px;
+  }
+}
